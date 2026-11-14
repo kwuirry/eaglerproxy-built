@@ -16,7 +16,7 @@
     "@types/ws": "8.5.4",
     "chalk": "5.2.0",
     "dotenv": "16.0.3",
-    "minecraft-protocol": "^1.26.5",
+    "minecraft-protocol": "^1.68.0",
     "node-fetch": "3.3.1",
     "parse-domain": "7.0.1",
     "prismarine-auth": "^2.7.0",
@@ -24,11 +24,14 @@
     "prismarine-chunk": "1.33.0",
     "prismarine-registry": "1.6.0",
     "semver": "^7.6.3",
-    "sharp": "^0.33.5",
+    "sharp": "^0.35.5",
     "ws": "^8.18.1"
   },
   "overrides": {
     "axios": "^1.8.2"
   },
-  "type": "module"
+  "type": "module",
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  }
 }
